@@ -1,4 +1,4 @@
-# Contributor Code of Conduct
+# Code of Conduct
 
 As contributors and maintainers of this repository, we pledge to make participation in our project and our community a harassment-free experience for everyone to be included. Every member of our community has the right to have their identity respected, regardless of age, body size, disability, ethnicity, gender identity and expression, sexual orientation, level of experience, nationality, personal appearance, race, religion, education, or socio-economic status.
 
