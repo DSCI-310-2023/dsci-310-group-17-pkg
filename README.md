@@ -1,6 +1,6 @@
 # dsci-310-group-17-pkg
 
-Code Coverage: [![codecov](https://codecov.io/gh/DSCI-310/dsci-310-group-17-pkg/branch/main/graph/badge.svg?token=CODECOV_TOKEN)](https://codecov.io/gh/DSCI-310/dsci-310-group-17-pkg)
+Code Coverage: [![codecov](https://codecov.io/gh/DSCI-310/dsci-310-group-17-pkg/branch/main/graph/badge.svg?${{secrets.CODECOV_TOKEN}})](https://codecov.io/gh/DSCI-310/dsci-310-group-17-pkg)
 
 
 ## License
