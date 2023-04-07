@@ -5,17 +5,30 @@ import argparse
 def main(url, output_path):
     """
     Downloads a file online based on the URL given and saves it to
-    a specified output path
+    a specified output path. If an HTTP error is present, print out 
+    the error code along with error reason. Also prompts the user 
+    utilizing an argument parser along with providing help descriptions
+    for the parameters. 
 
     Parameters
-    ----------
-    url: (string) -> Link to download from
+    -------
+    url: String
+        The url to the dataset that is desired to be stores at a certain path
 
-    output_path: (string) -> Stores the dataframe/csv at this path
+    output_path: String
+        The path that the data retrieved from the url is to be saved at. 
     
     Returns
-    ----------
-    None
+    -------
+    None. Stores a file at the specified output path. 
+
+    Examples
+    ------- 
+    Relocating a url file to a specified path in your own computer
+    >>> import hyperthyroid_classifier as hyp
+        Reading in the URL and saving the file contents to the specified path
+    >>> hyp.main("https://thisdataframe.ca, "hyperthyroid/data/dat.csv")
+        The file contents should be saved in hyperthyroid/data/dat.csv
     """
     try:
         urllib.request.urlretrieve(url, output_path)
