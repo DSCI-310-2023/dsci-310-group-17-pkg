@@ -10,7 +10,7 @@ long_description = (here / "README.md").read_text(encoding="utf-8")
 setup(
 
     name="hyperthyroidclassifier",  
-    version="0.1",  
+    version="0.1.0",  
     description="A package for classifying individuals based on the presence of hyperthyroid diseases based on various characteristics",
     long_description=long_description,  
     long_description_content_type="text/markdown", 
