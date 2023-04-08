@@ -25,7 +25,7 @@ def relabel_bclass(hyper_df):
     -------
     Convert the 'binaryClass' column of a mock dataframe to the correct values
 
-    >>> import hyperthyroid_classifier as hyp
+    >>> import hyperthyroidclassifier as hyp
 
         We first read in a dataframe with the relevant features and incorrect values for the 'binaryClass'
         column
@@ -72,7 +72,7 @@ def col_dtype_reformat(num_cols, cat_cols, hyper_df):
     Examples 
     -------
     Convert certain columns of a data frame to float64 and category data types 
-    >>> import hyperthyroid_classifier as hyp
+    >>> import hyperthyroidclassifier as hyp
 
         First we read in the data frame and find specified columns to convert
     >>> hyper_df = pd.read_csv("hyperthyroid.csv")
