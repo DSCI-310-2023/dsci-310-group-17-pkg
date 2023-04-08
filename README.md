@@ -1,4 +1,15 @@
-# dsci-310-group-17-pkg
+# hyperthyroidclassifier
+
+A python package designed for performing analysis on hyperthyroid disease data in order to classify individuals with hyperthyroid disease. This package includes functions to produce exploratory data analysis figures along with visualizing the classifications. There are many similar packages within the python ecosystem, specifically other disease classification packages. The main difference between this package and other is that our package does not have functions to directly classify data points, as only visualization functions are provided in hyperthyroidclassifier. 
+
+## Installation
+To install the package, clone this repository using `git clone url` with the repository url as url. 
+Then navigate to the repository on your computer using `cd dsci-310-group-17-pkg`
+Then run: 
+```
+pip install .
+```
+and hyperthyroidclassifier should be installed in the local computer. 
 
 Code Coverage: [![codecov](https://codecov.io/gh/DSCI-310/dsci-310-group-17-pkg/branch/main/graph/badge.svg?${{secrets.CODECOV_TOKEN}})](https://codecov.io/gh/DSCI-310/dsci-310-group-17-pkg)
 
