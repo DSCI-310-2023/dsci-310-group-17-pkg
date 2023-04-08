@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "hyperthyroidclassifier"
+name = "group17pkg"
 version = "0.1.0"
 description = "A package for classifying individuals based on the presence of hyperthyroid diseases based on various characteristics"
 authors = ["Ryan Lee, Matthew Gillies, Eric Liu, Arman Moztarzadeh"]
