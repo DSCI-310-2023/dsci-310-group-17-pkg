@@ -22,9 +22,9 @@ def visualize_classification(data, preds):
     Example
     -------
     Produce a scatterplot analyzing the classification of hyperthyroid disease
-    >>> import hyperthyroidclassifier as hyp
+    >>> import group17pkg as grp
         Inputting the dataframe along with the prediction set to use visualize_classification
-    >>> hyp.visualiaze_classification(hyper_train, train_preds)
+    >>> grp.visualiaze_classification(hyper_train, train_preds)
         This will produce a scatterplot visualizing the predictions for the hyper_train dataset. 
     """
     fig = plt.figure()

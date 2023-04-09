@@ -20,9 +20,9 @@ def plot_correlations(data):
     Example
     -------
     Visualize the correlations between the numeric features of the hyperthyroid dataset
-    >>> import hyperthyroidclassifier as hyp
+    >>> import group17pkg as grp
         Input the dataset as a parameter to use plot_correlations
-    >>> hyp.visualize(hyperthyroid)
+    >>> grp.visualize(hyperthyroid)
         This will return a heatmap representing the correlations of the numeric features of the dataset
     """
     print("Figure 1: Correlations of numeric features")

@@ -25,7 +25,7 @@ def relabel_bclass(hyper_df):
     -------
     Convert the 'binaryClass' column of a mock dataframe to the correct values
 
-    >>> import hyperthyroidclassifier as hyp
+    >>> import group17pkg as grp
 
         We first read in a dataframe with the relevant features and incorrect values for the 'binaryClass'
         column
@@ -34,7 +34,7 @@ def relabel_bclass(hyper_df):
     >>> ['n.*', 'h.*', 'T.*', 's.*', 'g.*']
 
         Now use relabel_bclass to create the correct labels in 'binaryClass'
-    >>> hyper_relabeled = hyp.relabel_bclass(hyper_df)
+    >>> hyper_relabeled = grp.relabel_bclass(hyper_df)
     >>> hyper_relabeled.Binaryclass.unique().tolist()
     >>> ['P', 'N', nan]
     """
@@ -72,7 +72,7 @@ def col_dtype_reformat(num_cols, cat_cols, hyper_df):
     Examples 
     -------
     Convert certain columns of a data frame to float64 and category data types 
-    >>> import hyperthyroidclassifier as hyp
+    >>> import group17pkg as hyp
 
         First we read in the data frame and find specified columns to convert
     >>> hyper_df = pd.read_csv("hyperthyroid.csv")
@@ -82,7 +82,7 @@ def col_dtype_reformat(num_cols, cat_cols, hyper_df):
             'query hyperthyroid', 'lithium', 'goitre', 'tumor', 'psych', 'binaryClass', 'hypopituitary']
     
         And then we use col_dtype_reformat to reformat the column datatypes
-    >>> hyper_reformatted = hyp.col_dtype_reformat(num_cols, cat_cols, hyper_df)
+    >>> hyper_reformatted = grp.col_dtype_reformat(num_cols, cat_cols, hyper_df)
     >>> hyper_reformatted[num_cols].dtype()
     >>> 'float64'
     >>> hyper_reformatted[cat_cols].dtype()
