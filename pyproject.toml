@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "group17pkg"
+version = "0.1.0"
+description = "A package for classifying individuals based on the presence of hyperthyroid diseases based on various characteristics"
+authors = ["Ryan Lee, Matthew Gillies, Eric Liu, Arman Moztarzadeh"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~4.2.2"
+matplotlib = "^3.7.1"
+pytest = "^7.2.2"
+pandas = "^1.5"
+seaborn = "^0.12.2"
+numpy = "^1.24.2"
+

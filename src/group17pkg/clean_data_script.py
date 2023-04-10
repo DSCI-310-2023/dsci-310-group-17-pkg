@@ -4,6 +4,36 @@ import numpy as np
 from clean_data import relabel_bclass, col_dtype_reformat
 
 def main(file_path, output_path):
+    """
+    Takes in the initial file path to the dataset, relabels the 'binaryClass' column using the 
+    relabel_bclass() function, replaces all '?' cell values with np.nan, drops unneccesary columns, 
+    and utilizes the col_dtype_reformat function to reformat column datatypes as desired. Then converts
+    the final cleaned dataset to a csv file at the specified output path. Also formats the function so that
+    the user will be prompted with the description of the function along with having help descriptions for
+    the parameters. 
+
+    Parameters
+    --------
+    file_path: String
+        A path to the dataset that is to be used as input for the data cleaning
+    output_path: String
+        The desired path for the output csv file. 
+
+    Returns
+    -------
+    None. A csv file is allocated to the provided output path representing the reformatted dataset
+
+    Example
+    -------
+    Perform data cleaning and transformation on the initial dataset
+    >>> import hyperthyroid_classifier as hyp
+        Perform data cleaning/reformatting with the desired input and output paths by using main
+    >>> hyp.main("hyperthyroid.csv", "data/hyperthyroid_clean.csv")
+        The new dataframe can now be accessed at data/hyperthyroid_clean.csv
+    
+    """
+    
+
     df = pd.read_csv(file_path)
     df = relabel_bclass(df)
 

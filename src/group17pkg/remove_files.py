@@ -3,15 +3,27 @@ import os
 
 def main(file_name):
     """
-    Deletes files. Intended for temporary files
+    Deletes files with the specified file name or path. Checks that the provided file name is present,
+    otherwise prints "File file_name is not found"
+    Intended for temporary files produced. 
+    Utilizes an argument parser to prompt the user and provide help descriptions for parameters. 
 
     Parameters
-    ----------
-    file_name: (string) -> file path/name to file planned for deletion
+    -------
+    file_name: String
+        file path/name to file planned for deletion
 
     Returns
-    ----------
+    -------
     None
+
+    Example
+    -------
+    Delete files at the specified path
+    >>> import hyperthyroid_classifier as hyp
+        Deleting all files in the results folder:
+    >>> hyp.main("results/*)
+        All files in the results folder should be removed now
     """ 
 
     #check if file exists and then remove
