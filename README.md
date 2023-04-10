@@ -1,9 +1,8 @@
 # group17pkg
 
 <!-- badges: start -->
-![](https://github.com/DSCI-310/dsci-310-group-17-pkg/actions/workflows/test-coverage.yaml/badge.svg)
-[![Codecov test
-coverage](https://codecov.io/gh/DSCI-310/dsci-310-group-17-pkg/branch/code-coverage-test/graph/badge.svg)](https://app.codecov.io/gh/DSCI-310/dsci-310-group-17-pkg?branch=code-coverage-test)
+![Github Actions Coverage](https://github.com/DSCI-310/dsci-310-group-17-pkg/actions/workflows/main.yml/badge.svg)
+[![Codecov](https://codecov.io/gh/DSCI-310/dsci-310-group-17-pkg/branch/code-coverage-test/graph/badge.svg)](https://app.codecov.io/gh/DSCI-310/dsci-310-group-17-pkg?branch=code-coverage-test)
 <!-- badges: end -->
 
 
