@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-sys.path.append('src')
+sys.path.append('src/group17pkg')
 from eda import plot_correlations
 
 def test_data():
