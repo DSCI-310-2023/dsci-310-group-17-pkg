@@ -40,6 +40,19 @@ def empty_plot():
     sns.heatmap(pd.DataFrame(), annot=True, ax=ax, cmap=plt.cm.Blues)
     return fig
     
+def test_empty_plot():
+    """
+    Tests that empty_plot() returns an empty figure
+    Parameters
+    ----------
+    None
+    Returns
+    ----------
+    None
+    """
+    fig = empty_plot()
+    assert fig is not None
+
 def test_plot_correlations_keyerror():
     """
     Tests that data has the correct columns when used as input to plot_correlations
