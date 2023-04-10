@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-sys.path.append('src')
+sys.path.append('src/group17pkg')
 from eda import plot_correlations
 
 def test_data():
@@ -37,8 +37,21 @@ def empty_plot():
     """
     fig, ax = plt.subplots(figsize=(20, 10))
     sns.set(font_scale=1)
-    sns.heatmap(pd.DataFram(), annot=True, ax=ax, cmap=plt.cm.Blues)
+    sns.heatmap(pd.DataFrame(), annot=True, ax=ax, cmap=plt.cm.Blues, vmin=0, vmax=1)
     return fig
+    
+def test_empty_plot():
+    """
+    Tests that the empty_plot() returns an empty figure
+    Parameters
+    ----------
+    None
+    Returns
+    ----------
+    None
+    """
+    fig = empty_plot()
+    assert fig is not None
 
 def test_plot_correlations_keyerror():
     """

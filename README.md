@@ -1,6 +1,10 @@
 # group17pkg
 
-[![codecov](https://codecov.io/gh/DSCI-310/dsci-310-group-17-pkg/branch/main/graph/badge.svg?${{secrets.CODECOV_TOKEN}})](https://codecov.io/gh/DSCI-310/dsci-310-group-17-pkg)
+<!-- badges: start -->
+![Github Actions Coverage](https://github.com/DSCI-310/dsci-310-group-17-pkg/actions/workflows/main.yml/badge.svg)
+[![Codecov](https://codecov.io/gh/DSCI-310/dsci-310-group-17-pkg/branch/code-coverage-test/graph/badge.svg)](https://app.codecov.io/gh/DSCI-310/dsci-310-group-17-pkg?branch=code-coverage-test)
+<!-- badges: end -->
+
 
 A python package designed for performing analysis on hyperthyroid disease data in order to classify individuals with hyperthyroid disease. This package includes functions to produce exploratory data analysis figures along with visualizing the classifications. There are many similar packages within the python ecosystem, specifically other disease classification packages. The main difference between this package and other is that our package does not have functions to directly classify data points, as only visualization functions are provided in hyperthyroidclassifier. 
 
@@ -12,6 +16,10 @@ Then run:
 pip install .
 ```
 and group17pkg should be installed in the local computer. 
+
+## Code of Conduct
+Please note that the project is released with a [Contributor Code of Conduct](https://github.com/DSCI-310/dsci-310-group-17-pkg/blob/main/CODE_OF_CONDUCT.md). By contributing to this project, you agree to abide by its terms and conditions.
+
 
 ## License
 This project uses the MIT license for its code and the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license for the analysis.

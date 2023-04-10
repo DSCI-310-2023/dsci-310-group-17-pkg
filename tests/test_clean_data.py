@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from pandas.api.types import CategoricalDtype
 
-sys.path.append('src')
+sys.path.append('src/group17pkg')
 from clean_data import relabel_bclass, col_dtype_reformat
 
 def test_relabel_bclass_returns():
