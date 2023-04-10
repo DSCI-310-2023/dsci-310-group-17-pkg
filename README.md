@@ -2,7 +2,7 @@
 
 <!-- badges: start -->
 ![Github Actions Coverage](https://github.com/DSCI-310/dsci-310-group-17-pkg/actions/workflows/main.yml/badge.svg)
-[![Codecov](https://codecov.io/gh/DSCI-310/dsci-310-group-17-pkg/branch/code-coverage-test/graph/badge.svg)](https://app.codecov.io/gh/DSCI-310/dsci-310-group-17-pkg?branch=code-coverage-test)
+[![Codecov](https://codecov.io/gh/DSCI-310/dsci-310-group-17-pkg/branch/main/graph/badge.svg)](https://app.codecov.io/gh/DSCI-310/dsci-310-group-17-pkg?branch=main)
 <!-- badges: end -->
 
 
