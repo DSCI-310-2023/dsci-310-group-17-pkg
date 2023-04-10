@@ -52,6 +52,7 @@ def test_empty_plot():
     """
     fig = empty_plot()
     assert fig is not None
+    assert len(fig.axes) == 0
 
 def test_plot_correlations_keyerror():
     """
