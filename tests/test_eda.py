@@ -37,8 +37,7 @@ def empty_plot():
     """
     fig, ax = plt.subplots(figsize=(20, 10))
     sns.set(font_scale=1)
-    data = pd.DataFrame(np.random.rand(5,5), columns=['a','b','c','d','e'])
-    sns.heatmap(data, annot=True, ax=ax, cmap=plt.cm.Blues)
+    sns.heatmap(pd.DataFrame(), annot=True, ax=ax, cmap=plt.cm.Blues, vmin=0, vmax=1)
     return fig
     
 def test_empty_plot():
