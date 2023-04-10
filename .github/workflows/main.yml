@@ -16,7 +16,6 @@ jobs:
         run: |
           coverage run --source=tests -m pytest
           coverage xml -o coverage.xml
-        working-directory: /path/to/repo
       - name: Run tests and collect coverage
         run: pytest --cov app
       - name: Upload coverage to Codecov
