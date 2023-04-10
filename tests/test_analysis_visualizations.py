@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
-sys.path.append('src')
+sys.path.append('src/group17pkg')
 from analysis_visualizations import visualize_classification
 
 def test_data():
