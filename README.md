@@ -17,6 +17,10 @@ pip install .
 ```
 and group17pkg should be installed in the local computer. 
 
+## Code of Conduct
+Please note that the project is released with a [Contributor Code of Conduct](https://github.com/DSCI-310/dsci-310-group-17-pkg/blob/main/CODE_OF_CONDUCT.md). By contributing to this project, you agree to abide by its terms and conditions.
+
+
 ## License
 This project uses the MIT license for its code and the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license for the analysis.
 
