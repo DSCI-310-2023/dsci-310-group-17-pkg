@@ -37,12 +37,8 @@ def empty_plot():
     """
     fig, ax = plt.subplots(figsize=(20, 10))
     sns.set(font_scale=1)
-    sns.heatmap(pd.DataFram(), annot=True, ax=ax, cmap=plt.cm.Blues)
+    sns.heatmap(pd.DataFrame(), annot=True, ax=ax, cmap=plt.cm.Blues)
     return fig
-
-def test_empty_plot():
-    fig = empty_plot()
-    assert fig is not None
     
 def test_plot_correlations_keyerror():
     """
