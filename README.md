@@ -38,7 +38,7 @@ Firstly import the package into the specific file you want to run the functions
 import group17pkg as grp
 ```
 
-The most basic usage for the package is to cleans and correctly labels the provided UCI thyroid dataset: (http://archive.ics.uci.edu/ml/machine-learning-databases/thyroid-disease/)
+The most basic usage for the package is to clean and correctly label the provided UCI thyroid dataset: (http://archive.ics.uci.edu/ml/machine-learning-databases/thyroid-disease/)
 ```python
 hyperthyroid_df = grp.relabel_bclass(hyperthyroid_df)
 ```
