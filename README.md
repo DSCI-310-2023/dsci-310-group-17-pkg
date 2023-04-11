@@ -27,7 +27,7 @@ pip install .
 
 # OR
 
-pip install -i https://test.pypi.org/simple/group17pkg==0.0.0
+pip install -i https://test.pypi.org/simple/ group17pkg==0.0.0
 ```
 The package should be installed on your local computer and usable for relevant projects and notebooks.
 
