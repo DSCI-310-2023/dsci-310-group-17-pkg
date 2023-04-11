@@ -5,7 +5,7 @@
 [![Codecov](https://codecov.io/gh/DSCI-310/dsci-310-group-17-pkg/branch/main/graph/badge.svg)](https://app.codecov.io/gh/DSCI-310/dsci-310-group-17-pkg?branch=main)
 <!-- badges: end -->
 
-
+## Overview
 A python package designed for performing analysis on hyperthyroid disease data in order to classify individuals with hyperthyroid disease. This package includes functions to produce exploratory data analysis figures such as a description of the dataframe and a correlation matrix for all numeric variables. The package also includes a function to visualize the classification of data points based on TSH and TT4 concentration. There are many similar packages within the python ecosystem, specifically other disease classification packages. The main difference between this package and other is that our package does not have functions to directly classify data points, as only visualization functions are provided in group17pkg. 
 
 ## Installation
@@ -17,13 +17,14 @@ pip install .
 ```
 and group17pkg should be installed in the local computer. 
 
+## Contributions
+For contribution guidelines, please refer to the guidlines listed in this document [here](https://github.com/DSCI-310/dsci-310-group-17-pkg/blob/main/CONTRIBUTIONS.md). You can also find this document in our main project [here](https://github.com/DSCI-310/dsci-310-group-17/blob/main/CONTRIBUTING.md).
+
 ## Code of Conduct
 Please note that the project is released with a [Contributor Code of Conduct](https://github.com/DSCI-310/dsci-310-group-17-pkg/blob/main/CODE_OF_CONDUCT.md). By contributing to this project, you agree to abide by its terms and conditions.
-
 
 ## License
 This project uses the MIT license for its code and the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license for the analysis.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
