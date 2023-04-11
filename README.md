@@ -6,7 +6,7 @@
 <!-- badges: end -->
 
 
-A python package designed for performing analysis on hyperthyroid disease data in order to classify individuals with hyperthyroid disease. This package includes functions to produce exploratory data analysis figures along with visualizing the classifications. There are many similar packages within the python ecosystem, specifically other disease classification packages. The main difference between this package and other is that our package does not have functions to directly classify data points, as only visualization functions are provided in hyperthyroidclassifier. 
+A python package designed for performing analysis on hyperthyroid disease data in order to classify individuals with hyperthyroid disease. This package includes functions to produce exploratory data analysis figures such as a description of the dataframe and a correlation matrix for all numeric variables. The package also includes a function to visualize the classification of data points based on TSH and TT4 concentration. There are many similar packages within the python ecosystem, specifically other disease classification packages. The main difference between this package and other is that our package does not have functions to directly classify data points, as only visualization functions are provided in hyperthyroidclassifier. 
 
 ## Installation
 To install the package, clone this repository using `git clone url` with the repository url as url. 
