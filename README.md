@@ -21,10 +21,9 @@ and group17pkg should be installed in the local computer.
 For contribution guidelines, please refer to the guidlines listed in this document [here](https://github.com/DSCI-310/dsci-310-group-17-pkg/blob/main/CONTRIBUTIONS.md). You can also find this document in our main project [here](https://github.com/DSCI-310/dsci-310-group-17/blob/main/CONTRIBUTING.md).
 
 ## Code of Conduct
-Please note that the project is released with a [Contributor Code of Conduct](https://github.com/DSCI-310/dsci-310-group-17-pkg/blob/main/CODE_OF_CONDUCT.md). By contributing to this project, you agree to abide by its terms and conditions.
+Please note that the package is released with a [Contributor Code of Conduct](https://github.com/DSCI-310/dsci-310-group-17-pkg/blob/main/CODE_OF_CONDUCT.md). By contributing to this repository, you agree to abide by its terms and conditions.
 
 ## License
-This project uses the MIT license for its code and the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license for the analysis.
+This project uses the MIT license for its code. Refer to the (license file)[https://github.com/DSCI-310/dsci-310-group-17-pkg/blob/main/LICENSE] for more information.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
