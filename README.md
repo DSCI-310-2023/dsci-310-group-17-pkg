@@ -24,6 +24,6 @@ For contribution guidelines, please refer to the guidlines listed in this docume
 Please note that the package is released with a [Contributor Code of Conduct](https://github.com/DSCI-310/dsci-310-group-17-pkg/blob/main/CODE_OF_CONDUCT.md). By contributing to this repository, you agree to abide by its terms and conditions.
 
 ## License
-This project uses the MIT license for its code. Refer to the (license file)[https://github.com/DSCI-310/dsci-310-group-17-pkg/blob/main/LICENSE] for more information.
+This project uses the MIT license for its code. Refer to the [license file](https://github.com/DSCI-310/dsci-310-group-17-pkg/blob/main/LICENSE) for more information.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
