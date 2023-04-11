@@ -1,14 +1,25 @@
-# Expected Team Contributions
+# Contributing to our Project
 
-## Expectations
-As a team, we expect all members to complete their required sections in a reasonable time (max 4-6 hours) and before deadlines. If team members cannot complete their sections within the maximum hours, members should give notice on Discord at least 24 hours before the group submission date (depending per milestone) to see if work should be redistributed or if the expected time should be increased.
-All submissions are expected to meet the criteria of the milestones as set out in the instructions. This includes ensuring all scripts are working, creating tests for functions, and using proper grammar in written submissions.
+We welcome contributions to our package from anyone interested in helping to improve it. Whether you're a developer, designer, writer, or just an enthusiastic user, there are many ways you can contribute to our project and help us make it even better.
 
-## Meetings
-Official meeting times were established during the initial team meeting held on 2023-01-31. Sessions will be held after DSCI 310 Lecture (Tues) weekly from 10:30 am - 12:00 pm. All members must notify if they are unable to attend at least 1 hour before. In addition, our group plans on holding meetings on discord in case of anything urgent that may arise throughout the duration of the project.
+## How to Contribute
+Here are some ways that you can contribute to our project:
 
-## Communication
-All communication outside of the meetings will be through Discord, Slack, or Github. Discord and Github will be the primary communication tool for ideas, suggestions, submitting work and reviewing work. Discord will also be used as our primary communication tool for informal communication and scheduling meetings.
+**Report Issues:** If you encounter a bug or have a suggestion for improvement, please submit an issue on our GitHub repository. This will help us identify areas that need attention and track progress. You can also include a tag that categorizes the type of issue (type, bug...)
 
-## Reviews
-All members are expected to submit a pull request for their work on the repository for the group project on Github.com. Members are expected to add teammates as reviewers to have all pull requests reviewed by another teammate. Pull requests should be reviewed within 24 hours after creation.
+**Submit Pull Requests:** If you have a fix or improvement that you would like to contribute to our project, please submit a pull request. We will review pull requests accordingly and are open to feedback and suggestions. 
+
+**Improve Documentation:** Our project's documentation is an essential resource for our users and contributors to get access to our project. If there are any any suggestions for how we can improve it, please let us know.
+
+**Spread the Word:** If you believe in our project and want to help us reach a broader audience, please share it with your friends, colleagues, and social networks. Your support can help us grow and improve.
+
+## Guidelines for Contribution
+When contributing to our project, please follow these guidelines:
+
+- Respect the Code of Conduct and ensure that your contributions align with the project's values and objectives.
+- Before contributing, please search the repository to ensure that there is a not a duplicate issue or pull request that has  been created
+- Use clear and concise language in your contributions.
+- Be open to recieving feedback and suggestions from other members
+
+## Getting Help
+If you have any questions or need help contributing to our project, please contact the repository maintainers. We are happy to help and are committed to making our project a welcoming and inclusive community for everyone.
