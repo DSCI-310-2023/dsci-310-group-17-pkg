@@ -9,11 +9,9 @@
 A python package designed for performing analysis on hyperthyroid disease data in order to classify individuals with hyperthyroid disease. This package includes functions to produce exploratory data analysis figures such as a description of the dataframe and a correlation matrix for all numeric variables. The package also includes a function to visualize the classification of data points based on TSH and TT4 concentration. There are many similar packages within the python ecosystem, specifically other disease classification packages. The main difference between this package and other is that our package does not have functions to directly classify data points, as only visualization functions are provided in group17pkg. 
 
 ## Installation
-To install the package, clone this repository using `git clone url` with the repository url as url. 
-Then navigate to the repository on your computer using `cd dsci-310-group-17-pkg`
-Then run: 
+To install the package run the following command in the terminal:
 ```
-pip install .
+pip install -i https://test.pypi.org/simple/ group17pkg==0.0.0
 ```
 and group17pkg should be installed in the local computer. 
 
